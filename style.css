@@ -149,11 +149,42 @@ header button:active {
     font-size: large;
 }
 
+/* criando cards */
+.section3 {
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section3 div {
+    padding: 20px;
+    width: 200px;
+    background-color: #0b326d;
+    color: #eee;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.534);
+    transition: 0.3s;
+}
+
+.section3 div:hover {
+    width: 260px;
+    transition: 0.3s;
+}
+
+.section3 p {
+    color: #849cb4;
+}
+
+.section3 .fa-solid {
+    font-size: x-large;
+    color: #849cb4;
+}
 
 
 
-.color1 { #f9ea0a };
+/* .color1 { #f9ea0a };
 .color2 { #66aff0 };
 .color3 { #115dcf };
 .color4 { #849cb4 };
-.color5 { #c8d4b0 };
+.color5 { #c8d4b0 }; */

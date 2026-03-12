@@ -1,0 +1,68 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* estilização global para tirar borda branca */
+* {
+margin: 0px;
+font-family: 'poppins', 'sans-serif';
+}
+
+/* Estilizando o cabeçalho */
+header {
+    padding: 5px 70px;
+    background-color: #115dcf;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 50px;
+}
+
+.div1-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+} 
+
+/* estilizando a primeira sessão */
+
+section {
+    padding: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* criando uma caixa */
+section div {
+    background-color: #115dcf;
+    padding: 70px;
+    width: 400px;
+    border: #afafaf67 solid 2px;
+    border-radius: 20px;
+    color: #eee;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input{
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 5px;
+}
+
+/* .color1 { #f9ea0a };
+.color2 { #66aff0 };
+.color3 { #115dcf };
+.color4 { #849cb4 };
+.color5 { #c8d4b0 }; */
