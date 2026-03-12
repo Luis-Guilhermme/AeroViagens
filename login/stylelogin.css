@@ -40,11 +40,15 @@ section {
 /* criando uma caixa */
 section div {
     background-color: #115dcf;
-    padding: 70px;
-    width: 400px;
+    padding: 30px;
+    width: 650px;
     border: #afafaf67 solid 2px;
     border-radius: 20px;
     color: #eee;
+}
+
+div img {
+    width: 70px;
 }
 
 
@@ -57,7 +61,7 @@ form {
 input{
     padding: 20px;
     border-radius: 30px;
-    border: none;
+    border: 2px solid #afafafb9;
     margin-top: 5px;
 }
 
