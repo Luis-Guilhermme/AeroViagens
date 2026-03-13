@@ -116,7 +116,7 @@ header button:active {
     color: black;
     transition: 0.3s;
 }
-
+/* estilização da section2 */
 .section2 {
     padding: 70px;
     display: flex;
@@ -124,10 +124,10 @@ header button:active {
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    height: 45vh;
 }
 
 .section2 button {
+    margin-top: 40px;
     background-color: #f9ea0a;
     border: none;
     border-radius: 80px;
@@ -160,6 +160,7 @@ header button:active {
 .section3 div {
     padding: 20px;
     width: 200px;
+    height: 220px;
     background-color: #0b326d;
     color: #eee;
     border-radius: 40px;
@@ -168,7 +169,7 @@ header button:active {
 }
 
 .section3 div:hover {
-    width: 260px;
+    width: 230px;
     transition: 0.3s;
 }
 
@@ -180,6 +181,90 @@ header button:active {
     font-size: x-large;
     color: #849cb4;
 }
+
+/* estilizando section 4 */
+
+.section4 {
+    padding: 70px;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+}
+
+.div1-section4{
+    width: 650px;
+    height: 300px;
+    border-radius: 40px;
+    background-color: #bdbdbd75;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.img-div1-section4 {   
+    width: 800px;
+    height: 100%;
+    background-image: url(img/newyork.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.div2-section4{
+    width: 650px;
+    height: 300px;
+    border-radius: 40px;
+    background-color: #bdbdbd75;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.img-div2-section4 {   
+    width: 800px;
+    height: 100%;
+    background-image: url(img/barcelona.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.section4 p,h3 {
+    font-size: 1.1  rem;
+}
+
+.section4 .div1-section4,.div2-section4 {
+    transition: 0.3s;
+}
+
+.section4 .div1-section4:hover,.div2-section4:hover {
+    width: 700px;
+    transition: 0.3s;
+} 
+
+/* estilização section5 */
+.section5 {
+    padding: 70px;
+
+}
+
+
+/* Estilização do footer */
+footer {
+    background-color: #eee;
+    padding: 30px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer div{
+    font-size: 2em;
+}
+
 
 
 
