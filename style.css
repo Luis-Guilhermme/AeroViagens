@@ -5,13 +5,18 @@
 * {
 margin: 0px;
 font-family: 'poppins', 'sans-serif';
+scroll-behavior: smooth;
 }
 
 
 /* Estilizando o cabeçalho */
 header {
-    padding: 30px 70px;
+    padding: 50px 70px;
     background-color: #eee;
+    position: sticky;/*faz com que o elemento fique fixo na tela quando o usuário rolar a página*/ 
+    top: 0; /*define que o elemento ficará preso ao topo da tela (0px de distância do topo)*/
+    left: 0; /*define o alinhamento à esquerda da página, mantendo 0px de distância*/
+    z-index: 1; /*controla a sobreposição do elemento sobre outros elementos da página*/
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -147,6 +152,11 @@ header button:active {
 .section2 span {
     color: #115dcf;
     font-size: large;
+}
+
+/* dando margem no scroll para não cortar o paragrafo ao clicar no nav */
+#sobre{
+    scroll-margin-top: 120px;
 }
 
 /* criando cards */
