@@ -275,6 +275,12 @@ footer div{
     font-size: 2em;
 }
 
+footer .fa-brands:hover,.fa-regular:hover {
+    color: #115dcf;
+    transition: 0.2s;       
+
+}
+
 
 
 
