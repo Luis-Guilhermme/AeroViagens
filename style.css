@@ -121,6 +121,24 @@ header button:active {
     color: black;
     transition: 0.3s;
 }
+
+/* estilização whatsapp */
+.div-whatsapp { /* div que guarda o icon whatsapp */
+    position: fixed; /* posicionamento fixo */
+    right: 25px; /* posição a direita */
+    bottom: 45px; /* posição a baixo */
+}
+
+.div-whatsapp img{ /* estilização do icon whatsapp */
+    width: 55px; /* largura do icone */
+    transition: 0.3s;
+}
+
+.div-whatsapp img:hover {
+    transform: scale(1.05);
+}
+
+
 /* estilização da section2 */
 .section2 {
     padding: 70px;
